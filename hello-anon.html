@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi</title>
+    <style>
+        body {
+            background-color: #e3d9df;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            width: 100px;
+            height: 50px;
+            background: #bbcacc;
+            border-radius: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button onclick="hello();">
+        кнопка
+    </button>
+    <script>
+        function hello()
+        {
+            let name = prompt('Как тебя зовут?');
+            alert(`привет, ${name}`);
+        }
+        
+    </script>
+
+</body>
+
+</html>
